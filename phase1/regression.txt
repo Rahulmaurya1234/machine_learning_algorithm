@@ -1,0 +1,52 @@
+
+
+
+Variance kam kaise karte hain? (extra)
+
+More training data
+
+Regularization (L1 / L2)
+
+Simpler model
+
+Feature selection
+
+
+| R²        | Meaning        |
+| --------- | -------------- |
+| 0.9+      | Excellent      |
+| 0.7 – 0.9 | Good           |
+| 0.5 – 0.7 | Ok             |
+| < 0.5     | Weak           |
+| 0         | Mean predictor |
+| Negative  | Very bad       |
+| RMSE      | Meaning        |
+
+MSE ko kis se compare karte hain?
+1️⃣ Target value ke scale se
+
+Data kis range ka hai?
+
+Same MSE chhote scale me high, bade scale me low ho sakta hai
+
+2️⃣ Baseline model se
+
+Mean prediction se better hai ya nahi
+
+Agar baseline se better nahi → model bekaar
+
+3️⃣ Train vs Test error se
+
+Gap zyada → overfitting
+
+Dono high → underfitting
+
+4️⃣ Domain expectation se
+
+Business / real-life tolerance kya hai
+
+Example:
+
+Exam marks ±5 ok
+
+Medical prediction me ±5 not ok
